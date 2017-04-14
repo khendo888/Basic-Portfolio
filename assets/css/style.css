@@ -1,3 +1,7 @@
+html, body {
+	height: 100%;
+}
+
 .page {
 	width: 960px;
 	margin: 0 auto;
@@ -21,7 +25,7 @@
 	margin-left: 670px;
 	background-color: #ffffff;
 	margin-top: 0;
-	padding-top: 90px;
+	padding-top: 80px;
 }
 
 h1 {
@@ -29,6 +33,8 @@ h1 {
 	background-color: #4aaaa5;
 	color: #ffffff;
 	padding: 20px;
+	font-size: 40px;
+	font-weight: bold;
 }
 
 h2 {
@@ -36,6 +42,8 @@ h2 {
 	font-family: 'Georgia', "Times", "Times New Roman", serif;
 	padding-bottom: 20px;
 	border-bottom: 1px solid #777777;
+	font-size: 30px;
+	font-weight: bold;
 }
 
 .about,
@@ -44,31 +52,39 @@ h2 {
 	float: left;
 	margin-right: 15px;
 	font-size: 18px;
-	
+}	
 
 .background {
 	clear: both;
 	width: 960px;
-	background-image:;
 	margin-bottom: 30px;
 }
+/*#background img {
+	position: absolute; 
+  	top: 0; 
+  	left: 0; 
+  	right: 0; 
+  	bottom: 0; 
+  	margin: auto; 
+  	min-width: 50%;
+  	min-height: 50%;
+}*/
 
 .leftpanel {
-	clear: both;
+	/*clear: both;*/
 	float:left;
 	width: 650px;
 	margin-right: 10px;
 	background-color: #ffffff;
-	/*border: 1px solid #777777;*/
 }
 
 .sidebar {
 	/*clear: both;*/
-	/*float: left;*/
+	float: left;
 	width: 270px;
 	margin-top: 0px;
 	margin-left: 20px;
-	margin-right: 10px;
+	/*margin-right: 5px;*/
 }
 
 #bio-image {
@@ -76,9 +92,10 @@ h2 {
 	float: left;
 	width: 200px;
 	margin-left: 0px;
-	margin-top: 20px;
+	margin-top: 30px;
 	margin-right: 20px;
 	margin-bottom: 20px;
+	padding-top: 10px;
 }
 
 p {
@@ -90,17 +107,6 @@ p {
 	margin-bottom: 20px;
 	margin-left: 10px;
 }
-/* h2 {
-	font-family: 'Georgia', "Times", "Times New Roman", serif;
-	/*color: #4aaaa5;
-	color: blue;
-	background-color: #ffffff;
-	border-color: #cccccc; 
-	/*float: left;*
-	padding: 20px;
-	margin-bottom: 10px;
-	border-bottom: 2px solid #4aaaa5;
-}*/
 
 h3 {
 	font-family: 'Georgia', "Times", "Times New Roman", serif;
@@ -115,32 +121,54 @@ h3 {
 
 #main-bio {
 	float: left;
-
 }
 
 #github,
 #linkedin,
 #overflow {
-	width: 33%;
+	width:30%;
 	float: left;
+	margin-top: 20px;
+	margin-right: 5px;
+}
+
+#contactme {
+	font-family: "Tahoma", "Geneva", sans-serif;
+	color: #777777;
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+#contactform {
+	font-size: 16px;
+}
+
+
+input {
+	font-size: 12px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#submit {
+	background-color: #4aaaa5;
+	color: #ffffff;
 }
 
 footer {
-	/*clear: both;*/
-	text-align: center;
-	font-size: 12px;
-	font-family: "Tahoma", "Geneva", sans-serif;
-	background-color: #666666;
-	color: #cccccc;
-	display: block;
-    position: fixed;
-    padding: 10px;
+    position: absolute;
     left: 0;
     bottom: 0;
-    height: 40px;
+    height: 20px;
     width: 100%;
-    border-top: 6px;
+    font-size: 12px;
+	font-family: "Tahoma", "Geneva", sans-serif;
+	text-align: center;
+	font-style: italic;
+	background-color: #666666;
+	color: #cccccc;
+	padding: 30px;
+	border-top: 6px;
     border-height: 10px
     border-color:#4aaaa5;
 }
-
