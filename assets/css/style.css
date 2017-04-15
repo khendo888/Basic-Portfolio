@@ -1,5 +1,11 @@
-html, body {
-	height: 100%;
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 20px; /* bottom = footer height
+    background-color: green; */
 }
 
 .page {
@@ -76,6 +82,7 @@ h2 {
 	width: 650px;
 	margin-right: 10px;
 	background-color: #ffffff;
+	padding-bottom: 30px;
 }
 
 .sidebar {
@@ -84,6 +91,9 @@ h2 {
 	width: 270px;
 	margin-top: 0px;
 	margin-left: 20px;
+	background-color: #ffffff;
+	padding-bottom: 30px;
+	padding-right: 10px;
 	/*margin-right: 5px;*/
 }
 
@@ -153,6 +163,26 @@ input {
 #submit {
 	background-color: #4aaaa5;
 	color: #ffffff;
+}
+
+.projects {
+	float: left;
+
+}
+
+#projpix {
+	float: left;
+	/*position: relative;*/
+	
+}
+
+#hangman,
+#rpggame,
+#trivia,
+#rutgers,
+#rockpaper {
+	width: 200px;
+	height: 200px;
 }
 
 footer {
